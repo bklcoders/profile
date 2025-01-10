@@ -1,3 +1,5 @@
-function followUs() {
-    alert("Thank you for connecting with Nexora IT Solutions!");
-}
+document.getElementById("connectBtn").addEventListener("click", function() {
+    var contactSection = document.getElementById("contactSection");
+    // Toggle visibility
+    contactSection.style.display = contactSection.style.display === "block" ? "none" : "block";
+});
